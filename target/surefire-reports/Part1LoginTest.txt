@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: Part1LoginTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.142 s <<< FAILURE! -- in Part1LoginTest
+Part1LoginTest.testUsernameCorrectlyFormatted -- Time elapsed: 0.009 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Welcome Kyle, Smith it is great to see you again.> but was: <Username or password incorrect, please try again.>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at Part1LoginTest.testUsernameCorrectlyFormatted(Part1LoginTest.java:21)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
